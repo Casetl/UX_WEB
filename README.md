@@ -4,7 +4,7 @@ Este proyecto fue creado usando [Angular CLI](https://github.com/angular/angular
 
 ## Servidor de desarrollo
 
-Run `ng serve` para corres la aplicación. Navegar a `http://localhost:4200/`. 
+Run `ng serve` para correr la aplicación. Navegar a `http://localhost:4200/`. 
 
 ## Instalación de librerías
 
