@@ -8,6 +8,7 @@ instalar las siguientes librerias
 
 - `npm install`   
 - `ng add @angular/material`
+- `ng add @ng-bootstrap/ng-bootstrap`
 - `npm install jquery - save`
 - `npm install bootstrap  - save`
 

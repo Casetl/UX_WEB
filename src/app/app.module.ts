@@ -9,6 +9,7 @@ import {MatCardModule} from '@angular/material/card';
 import { AlarmasModule } from './alarmas/alarmas.module';
 import { ToastrModule } from "ngx-toastr";
 import { MenuComponent } from './menu/menu.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { MenuComponent } from './menu/menu.component';
       positionClass: "toast-bottom-right",
       preventDuplicates: true,
     }),
+    NgbModule,
 
   ],
   providers: [],

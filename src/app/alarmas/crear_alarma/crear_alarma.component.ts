@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl} from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,9 +9,6 @@ import { Router } from '@angular/router';
 export class Crear_alarmaComponent implements OnInit {
 
 
-  toppings = new FormControl('');
-  toppingList: string[] = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
-  panelColor = new FormControl('red');
   constructor(private router: Router,) { }
 
   ngOnInit() {
