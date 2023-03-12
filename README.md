@@ -10,7 +10,7 @@ Run `ng serve` para correr la aplicación. Navegar a `http://localhost:4200/`.
 
 instalar las siguientes librerias
 
+- `npm install`   
 - `ng add @angular/material`
 - `npm install jquery - save`
 - `npm install bootstrap  - save`
-
