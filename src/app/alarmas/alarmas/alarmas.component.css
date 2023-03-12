@@ -87,5 +87,8 @@ text-align: left;
   margin-bottom: 25px;
 }
 
-
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: #FFFFFF;
+}
 

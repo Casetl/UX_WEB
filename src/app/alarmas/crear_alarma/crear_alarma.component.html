@@ -1,0 +1,125 @@
+<div class="container">
+  <div class="row">
+    <div class="title col-sm -3">
+      <a href="/alarm"
+        ><img
+          id="menu-item"
+          width="15%"
+          onmouseout="this.src='assets/regresar.png';"
+          onmouseover="this.src='assets/regresar.png';"
+          src="assets/regresar.png"
+      /></a>
+    </div>
+    <div class="title col-sm-6"><p>Configurar Alarma</p></div>
+    <div class="title off col-sm-3">
+      <a href="/alarm"
+        ><img
+          id="menu-item"
+          width="15%"
+          onmouseout="this.src='assets/guardar.png';"
+          onmouseover="this.src='assets/guardar.png';"
+          src="assets/guardar.png"
+      /></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="clock col-sm-12">
+      <input type="text" maxlength="2" /> :
+      <input type="text" maxlength="2" /> :
+      <select class="select-hora" name="lenguajes" id="lang">
+        <option value="javascript">a.m.</option>
+        <option value="php">p.m.</option>
+
+      </select>
+    </div>
+  </div>
+
+  <div class="lista row">
+    <div class="col-sm-3">-</div>
+    <div class="menu-creacion col-sm-6">
+      <div class="label col-sm-6">Repetir</div>
+      <div class="option col-sm-6">
+        <select class="select-menu" name="lenguajes" id="lang">
+          <option value="javascript">Lunes</option>
+        <option value="php">Martes</option>
+        <option value="php">Miércoles</option>
+        <option value="php">Jueves</option>
+        <option value="php">Viernes</option>
+        <option value="php">Sábado</option>
+        <option value="php">Domingo</option>
+
+        </select>
+      </div>
+      <div class="label col-sm-12">
+        <hr />
+      </div>
+
+      <div class="label col-sm-6">Sonido</div>
+      <div class="option col-sm-6">
+        <select class="select-menu" name="select">
+          <option value="javascript">To be Treated</option>
+          <option value="php">Stairway to Heaven</option>
+          <option value="php">Stairway to Heaven</option>The sky is criying
+
+        </select>
+      </div>
+      <div class="label col-sm-12">
+        <hr />
+      </div>
+
+      <div class="label col-sm-6">Nombre</div>
+      <div class="option col-sm-6">
+        <select class="select-menu" name="lenguajes" id="lang">
+          <option value="value1">A despertar</option>
+        </select>
+      </div>
+      <div class="label col-sm-12">
+        <hr />
+      </div>
+
+      <div class="label col-sm-6">Duración del timbre</div>
+      <div class="option col-sm-6">
+        <select class="select-menu" name="lenguajes" id="lang">
+          <option value="javascript">2 min</option>
+          <option value="php">5 min</option>
+          <option value="php">10 min</option>
+        </select>
+      </div>
+      <div class="label col-sm-12">
+        <hr />
+      </div>
+
+      <div class="label col-sm-6">Posponer</div>
+      <div class="option col-sm-6">
+        <select class="select-menu" name="lenguajes" id="lang">
+          <option value="javascript">2 min</option>
+          <option value="php">5 min</option>
+          <option value="php">10 min</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+
+  <div class="create row">
+    <div class="col-sm"></div>
+    <div class="col-sm" (click)="eliminar()"><button  >Eliminar</button></div>
+    <div class="col-sm">
+    </div>
+  </div>
+
+  <div
+    class="dropdown-divider"
+    id="line-one"
+    style="border-color: rgb(217, 210, 210)"
+  ></div>
+  <div
+    class="dropdown-divider"
+    id="line-two"
+    style="border-color: rgb(217, 210, 210)"
+  ></div>
+
+  <div class="menu row">
+    <app-menu></app-menu>
+  </div>
+</div>

@@ -7,6 +7,7 @@ import { RecordatorioComponent } from './alarmas/recordatorio/recordatorio.compo
 import { CronometroComponent } from './alarmas/cronometro/cronometro.component';
 import { TemporizadorComponent } from './alarmas/temporizador/temporizador.component';
 import { ClimaComponent } from './alarmas/clima/clima.component';
+import { Crear_alarmaComponent } from './alarmas/crear_alarma/crear_alarma.component';
 
 const routes: Routes = [
   {
@@ -46,11 +47,14 @@ const routes: Routes = [
     component:  TemporizadorComponent,
     pathMatch: 'full'
   },
-
-
   {
     path: 'weather',
     component:  ClimaComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'createalarm',
+    component:  Crear_alarmaComponent,
     pathMatch: 'full'
   },
 ];
