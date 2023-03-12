@@ -20,8 +20,8 @@ h2 {
 .form {
   position: relative;
   z-index: 1;
-  color: #66696c;
-  background: #131516;
+  color: #48494D;
+  background: #232426;
   max-width:500px;
   margin: 0 auto 50px;
   padding: 45px;
@@ -29,26 +29,25 @@ h2 {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   border-radius: 10%;
   border: 2px solid;
-  font-family: "Roboto"
+  font-family: "Roboto";
 }
 
 .form-correo {
   position: relative;
   z-index: 1;
-  color: #434547;
-  background: #030303;
+  background: #303030;
   max-width:500px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   border-radius: 10%;
-  border: 2px solid;
+  border: 1px solid;
 }
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
-  background: #f2f2f2;
+  background: #FFFFFF;
   width: 100%;
   border: 0;
   margin: 0 0 15px;
@@ -70,7 +69,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #2b74f1;
+  background: #307AF7;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -89,7 +88,7 @@ h2 {
   font-size: 12px;
 }
 .form .message a {
-  color: #4305e2 ;
+  color: #307AF7 ;
   text-decoration: none;
 }
 .form .register-form {

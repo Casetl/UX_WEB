@@ -6,7 +6,7 @@
   </div>
   <div class="row">
     <div class="clock col-sm-12">
-      <p id="clock">00:00:00 </p>p.m.
+      <p id="clock">00:00:00</p>
     </div>
   </div>
 
@@ -19,7 +19,10 @@
         <p>5:30 pm</p>descripción
       </div>
       <div id="boton">
-        <mat-slide-toggle color="primary"></mat-slide-toggle>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
       </div>
     </div>
 
@@ -36,11 +39,6 @@
     </div>
     <div class="col-sm-3"></div>
   </div>
-
-
-    <div class="dropdown-divider" id="line-one" style="border-color:rgb(217, 210, 210);"></div>
-    <div class="dropdown-divider" id="line-two" style="border-color:rgb(217, 210, 210);"></div>
-
     <div class="menu row">
       <app-menu></app-menu>
     </div>

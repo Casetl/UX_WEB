@@ -56,7 +56,7 @@
 .lista-item{
   text-align: center;
   height: 70px;
-  background-color:#272626;
+  background-color:#303030;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -83,14 +83,6 @@ text-align: left;
   text-align: right;
   }
 
-#line-one{
-  margin-top: 25px;
-}
-
-
-#line-two{
-  margin-bottom: 25px;
-}
 
 
 

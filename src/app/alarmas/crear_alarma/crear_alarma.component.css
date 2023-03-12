@@ -45,7 +45,7 @@
 .menu-creacion{
 
   height: auto;
-  background-color:#272626;
+  background-color:#303030;
   border-radius: 50px;
   display: flex;
   flex-direction: row;
@@ -118,7 +118,7 @@ hr{
 }
 
 .select-menu{
-  background:#272626;
+  background:#303030;
   display: inline;
   width: 150px;
   color: #FFFFFF;
@@ -131,7 +131,7 @@ button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background: #2b74f1;
+    background:#307AF7;
     width: 100%;
     border: 0;
     padding: 15px;
@@ -145,3 +145,13 @@ button {
 button:hover,.form button:active,.form button:focus {
     background: #4305e2;
   }
+
+  .menu-item-regresar{
+    text-align: left;
+    margin-top: 50px;
+    }
+
+    .menu-item-guardar{
+      text-align: right;
+      margin-top: 50px;
+      }
