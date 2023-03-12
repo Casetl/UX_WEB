@@ -1,0 +1,18 @@
+<div class="login-page">
+  <h1>ALARMA CON <br> RECORDATORIOS</h1>
+  <div class="form" (ngSubmit)="submit()">
+    <form class="login-form">
+      <input type="email" placeholder="Correo"/>
+      <input type="password" placeholder="Contraseña"/>
+      <button  (click)="submit()">Ingresar</button>
+      <p class="message">No tienes cuenta?<a href="/signup">  Registrate</a></p>
+    </form>
+  </div>
+  <div class="form">
+    <form class="login-form">
+      <h2>Olvidaste tu contraseña?</h2>
+      <input type="email" placeholder="Correo"/>
+      <button (click)="sendEmail()">Enviar correo</button>
+    </form>
+  </div>
+</div>
