@@ -145,3 +145,24 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+p{display: inline;}
+
+
+.index{
+  font-size: large;
+  text-align: left;
+  padding-top: 20px;
+}
+.trm01{
+  font-size: large;
+  text-align: center;
+  padding-top: 20px;
+
+}
+.trm02{
+  font-size: large;
+  text-align: right;
+  padding-top: 20px;
+
+}

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CronometroComponent implements OnInit {
 
 
-  lista:string[]=["hola","que","tal","estas"];
+  lista=[1,2,3,4]
 
   constructor() { }
 
