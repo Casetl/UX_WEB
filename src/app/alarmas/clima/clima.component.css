@@ -54,7 +54,6 @@ input[type="checkbox"] {
   border-radius: 10%;
 }
 
-
 .ghost-input {
   display: block;
   font-weight: 300;
@@ -65,7 +64,7 @@ input[type="checkbox"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #4b545f;
+  color: #ffffff;
   background: #232426;
   font-family: roboto;
   -webkit-transition: all 0.1s ease-in-out;
@@ -73,7 +72,6 @@ input[type="checkbox"] {
   -ms-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-
 }
 .ghost-input:focus {
   border-bottom: 1px solid #ddd;
@@ -92,6 +90,3 @@ input[type="checkbox"] {
 .ghost-button:hover {
   border: 2px solid #515151;
 }
-
-
-

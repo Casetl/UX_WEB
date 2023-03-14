@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemporizadorComponent implements OnInit {
 
-  lista:string[]=["hola","que","tal","estas"];
+  lista:string[]=["1","2","3","4"];
 
   constructor() { }
 

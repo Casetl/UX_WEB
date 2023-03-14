@@ -1,62 +1,55 @@
-.container{
-  color: #FFFFFF;
+.container {
+  color: #ffffff;
   width: 100%;
 }
 
-.title{
+.title {
   text-align: center;
   margin-top: 50px;
   font-size: 30px;
 }
 
-
-.off{
+.off {
   text-align: right;
 }
 
-.clock{
+.clock {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 200px;
 }
 
-.tabla{
+.tabla {
   text-align: right;
   margin-top: 50px;
   margin-bottom: 50px;
-
-
 }
 
-#clock{
+#clock {
   display: inline;
   font-size: 50px;
-
 }
 
-
-
-.controles{
+.controles {
   margin-top: 50px;
   text-align: center;
-
 }
 
-#controles-item{
+#controles-item {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.lista{
+.lista {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.lista-item{
+.lista-item {
   text-align: center;
   height: 70px;
-  background-color:#303030;
+  background-color: #303030;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -67,22 +60,16 @@
   width: 50%;
 }
 
-
-#hora{
-padding: 10px;
-text-align: left;
+#hora {
+  padding: 10px;
+  text-align: left;
 }
 
-#hora p{
+#hora p {
   font-size: large;
+}
 
-  }
-
-#boton{
+#boton {
   padding-top: 25px;
   text-align: right;
-  }
-
-
-
-
+}

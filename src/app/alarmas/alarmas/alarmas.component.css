@@ -1,57 +1,53 @@
-.container{
-  color: #FFFFFF;
+.container {
+  color: #ffffff;
   width: 100%;
 }
 
-.title{
+.title {
   text-align: center;
   margin-top: 50px;
   font-size: 30px;
 }
 
-
-.off{
+.off {
   text-align: right;
 }
 
-.clock{
+.clock {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
-.tabla{
+.tabla {
   text-align: right;
   margin-top: 50px;
   margin-bottom: 50px;
-
-
 }
 
-#clock{
+#clock {
   display: inline;
   font-size: 50px;
-
 }
 
-.create-icon{
+.create-icon {
   text-align: right;
 }
 
-.create{
+.create {
   margin-top: 50px;
 }
 
-.lista{
+.lista {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.lista-item{
+.lista-item {
   text-align: center;
   height: 70px;
-  background-color:#303030;
+  background-color: #303030;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -62,25 +58,25 @@
   width: 50%;
 }
 
-
-#hora{
-padding: 10px;
-text-align: left;
+#hora {
+  padding: 10px;
+  text-align: left;
 }
 
-#hora p{
+#hora p {
   font-size: large;
+}
 
-  }
-
-#boton{
+#boton {
   padding-top: 25px;
   text-align: right;
-  }
+}
 
-a:link, a:visited, a:active {
-  text-decoration:none;
-  color: #FFFFFF;
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* The switch - the box around the slider */
@@ -107,8 +103,8 @@ a:link, a:visited, a:active {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -119,16 +115,16 @@ a:link, a:visited, a:active {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #307AF7;
+  background-color: #307af7;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #307AF7;
+  box-shadow: 0 0 1px #307af7;
 }
 
 input:checked + .slider:before {

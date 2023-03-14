@@ -4,40 +4,39 @@
   width: 500px;
   padding: 8% 0 0;
   margin: auto;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-h1{
-  color: #FFFFFF;
+h1 {
+  color: #ffffff;
   text-align: center;
 }
 
 h2 {
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .form {
   position: relative;
   z-index: 1;
-  color: #48494D;
+  color: #48494d;
   background: #232426;
-  max-width:500px;
+  max-width: 500px;
   margin: 0 auto 50px;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   border-radius: 10%;
   border: 2px solid;
-  font-family: "Roboto"
+  font-family: "Roboto";
 }
 
 .form-correo {
   position: relative;
   z-index: 1;
-  color: #48494D;
+  color: #48494d;
   background: #232426;
-  max-width:500px;
+  max-width: 500px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
@@ -59,29 +58,30 @@ h2 {
 
 #icon {
   position: relative;
-  bottom: .5rem;
+  bottom: 0.5rem;
   right: 1rem;
   user-select: none;
   cursor: pointer;
 }
 
-
 .form button {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #307AF7;
+  background: #307af7;
   width: 100%;
   border: 0;
   padding: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
 }
-.form button:hover,.form button:active,.form button:focus {
-  background:#4305e2;
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #4305e2;
 }
 .form .message {
   margin: 15px 0 0;
@@ -89,10 +89,9 @@ h2 {
   font-size: 12px;
 }
 .form .message a {
-  color: #307AF7 ;
+  color: #307af7;
   text-decoration: none;
 }
 .form .register-form {
   display: none;
 }
-
